@@ -1,0 +1,709 @@
+[
+  {
+    "file": "gencast_demo_cloud_vm.ipynb",
+    "dependencies": [
+      "HTML",
+      "typing",
+      "animation",
+      "gencast",
+      "ipywidgets",
+      "denoiser",
+      "data_utils",
+      "checkpoint",
+      "dataclasses",
+      "xarray_tree",
+      "Optional",
+      "matplotlib",
+      "IPython",
+      "nan_cleaning",
+      "xarray",
+      "graphcast",
+      "datetime",
+      "rollout",
+      "numpy",
+      "normalization",
+      "display",
+      "jax",
+      "haiku",
+      "math",
+      "xarray_jax",
+      "matplotlib.pyplot",
+      "IPython.display"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CONTRIBUTING.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "setup.py",
+    "dependencies": [
+      "setuptools",
+      "setup"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "gencast_mini_demo.ipynb",
+    "dependencies": [
+      "HTML",
+      "typing",
+      "google.cloud",
+      "animation",
+      "gencast",
+      "ipywidgets",
+      "denoiser",
+      "data_utils",
+      "checkpoint",
+      "dataclasses",
+      "xarray_tree",
+      "Optional",
+      "matplotlib",
+      "IPython",
+      "nan_cleaning",
+      "storage",
+      "xarray",
+      "datetime",
+      "rollout",
+      "graphcast",
+      "numpy",
+      "normalization",
+      "display",
+      "jax",
+      "haiku",
+      "math",
+      "xarray_jax",
+      "matplotlib.pyplot",
+      "IPython.display"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast_demo.ipynb",
+    "dependencies": [
+      "casting",
+      "HTML",
+      "typing",
+      "autoregressive",
+      "google.cloud",
+      "animation",
+      "ipywidgets",
+      "data_utils",
+      "checkpoint",
+      "dataclasses",
+      "xarray_tree",
+      "re",
+      "Optional",
+      "matplotlib",
+      "storage",
+      "graphcast",
+      "datetime",
+      "rollout",
+      "xarray",
+      "numpy",
+      "normalization",
+      "jax",
+      "haiku",
+      "math",
+      "functools",
+      "xarray_jax",
+      "cartopy.crs",
+      "matplotlib.pyplot",
+      "IPython.display"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/nan_cleaning.py",
+    "dependencies": [
+      "Optional",
+      "typing",
+      "xarray",
+      "graphcast",
+      "numpy",
+      "predictor_base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/data_utils.py",
+    "dependencies": [
+      "solar_radiation",
+      "typing",
+      "xarray",
+      "graphcast",
+      "numpy",
+      "pandas",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/mlp.py",
+    "dependencies": [
+      "jax.numpy",
+      "jax",
+      "haiku"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/predictor_base.py",
+    "dependencies": [
+      "Tuple",
+      "losses",
+      "typing",
+      "abc",
+      "xarray",
+      "xarray_jax",
+      "graphcast",
+      "jax.numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/checkpoint.py",
+    "dependencies": [
+      "typing",
+      "dataclasses",
+      "numpy",
+      "types",
+      "io",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/denoisers_base.py",
+    "dependencies": [
+      "xarray",
+      "typing",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/casting.py",
+    "dependencies": [
+      "chex",
+      "jax",
+      "haiku",
+      "typing",
+      "xarray",
+      "graphcast",
+      "jax.numpy",
+      "numpy",
+      "predictor_base",
+      "contextlib",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/grid_mesh_connectivity.py",
+    "dependencies": [
+      "scipy",
+      "graphcast",
+      "trimesh",
+      "numpy",
+      "icosahedral_mesh"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/typed_graph.py",
+    "dependencies": [
+      "NamedTuple",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/transformer.py",
+    "dependencies": [
+      "jax",
+      "haiku",
+      "typing",
+      "sparse",
+      "scipy",
+      "typed_graph",
+      "graphcast",
+      "jax.numpy",
+      "numpy",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/rollout.py",
+    "dependencies": [
+      "absl",
+      "chex",
+      "dask.array",
+      "jax",
+      "typing",
+      "typing_extensions",
+      "xarray",
+      "xarray_jax",
+      "graphcast",
+      "xarray_tree",
+      "Iterator",
+      "logging",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/xarray_tree.py",
+    "dependencies": [
+      "xarray",
+      "typing",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/xarray_jax.py",
+    "dependencies": [
+      "collections",
+      "jax",
+      "contextvars",
+      "typing",
+      "xarray",
+      "tree",
+      "Hashable",
+      "jax.numpy",
+      "numpy",
+      "contextlib",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/xarray_tree_test.py",
+    "dependencies": [
+      "xarray",
+      "graphcast",
+      "xarray_tree",
+      "absl.testing",
+      "absltest",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/losses.py",
+    "dependencies": [
+      "typing",
+      "typing_extensions",
+      "xarray",
+      "graphcast",
+      "Mapping",
+      "xarray_tree",
+      "Protocol",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/data_utils_test.py",
+    "dependencies": [
+      "data_utils",
+      "parameterized",
+      "xarray",
+      "datetime",
+      "graphcast",
+      "absltest",
+      "numpy",
+      "absl.testing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/sparse_transformer_utils.py",
+    "dependencies": [
+      "jax",
+      "typing",
+      "Callable",
+      "functools",
+      "jax.numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/model_utils.py",
+    "dependencies": [
+      "transform",
+      "scipy.spatial",
+      "typing",
+      "xarray",
+      "jax.numpy",
+      "numpy",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/dpm_solver_plus_plus_2s.py",
+    "dependencies": [
+      "casting",
+      "haiku",
+      "samplers_base",
+      "typing",
+      "denoisers_base",
+      "xarray",
+      "xarray_jax",
+      "graphcast",
+      "jax.numpy",
+      "Optional",
+      "samplers_utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/icosahedral_mesh_test.py",
+    "dependencies": [
+      "chex",
+      "parameterized",
+      "graphcast",
+      "absltest",
+      "numpy",
+      "icosahedral_mesh",
+      "absl.testing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/samplers_utils.py",
+    "dependencies": [
+      "dinosaur",
+      "chex",
+      "jax",
+      "haiku",
+      "typing",
+      "functools",
+      "dataclasses",
+      "xarray_jax",
+      "xarray",
+      "xarray_tree",
+      "jax.numpy",
+      "graphcast",
+      "numpy",
+      "spherical_harmonic",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/checkpoint_test.py",
+    "dependencies": [
+      "typing",
+      "checkpoint",
+      "dataclasses",
+      "graphcast",
+      "absltest",
+      "numpy",
+      "absl.testing",
+      "io",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/deep_typed_graph_net.py",
+    "dependencies": [
+      "chex",
+      "jax",
+      "haiku",
+      "typed_graph_net",
+      "typing",
+      "Callable",
+      "mlp",
+      "jraph",
+      "functools",
+      "typed_graph",
+      "graphcast",
+      "jax.numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/xarray_jax_test.py",
+    "dependencies": [
+      "chex",
+      "jax",
+      "xarray",
+      "xarray_jax",
+      "graphcast",
+      "jax.numpy",
+      "absltest",
+      "numpy",
+      "absl.testing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/gencast.py",
+    "dependencies": [
+      "chex",
+      "dpm_solver_plus_plus_2s",
+      "losses",
+      "casting",
+      "Any",
+      "haiku",
+      "jax",
+      "typing",
+      "samplers_utils",
+      "graphcast",
+      "xarray_jax",
+      "xarray",
+      "predictor_base",
+      "denoiser"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/icosahedral_mesh.py",
+    "dependencies": [
+      "List",
+      "transform",
+      "scipy.spatial",
+      "typing",
+      "itertools",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/samplers_base.py",
+    "dependencies": [
+      "typing",
+      "denoisers_base",
+      "abc",
+      "xarray",
+      "graphcast",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "graphcast/denoiser.py",
+    "dependencies": [
+      "chex",
+      "model_utils",
+      "typing",
+      "deep_typed_graph_net",
+      "scipy",
+      "transformer",
+      "sparse",
+      "typed_graph",
+      "dataclasses",
+      "Any",
+      "sparse_transformer",
+      "xarray",
+      "graphcast",
+      "jax.numpy",
+      "numpy",
+      "icosahedral_mesh",
+      "grid_mesh_connectivity",
+      "jax",
+      "haiku",
+      "denoisers_base",
+      "xarray_jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/autoregressive.py",
+    "dependencies": [
+      "absl",
+      "Optional",
+      "haiku",
+      "jax",
+      "typing",
+      "xarray",
+      "xarray_jax",
+      "graphcast",
+      "xarray_tree",
+      "logging",
+      "predictor_base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/normalization.py",
+    "dependencies": [
+      "typing",
+      "xarray",
+      "graphcast",
+      "xarray_tree",
+      "logging",
+      "Optional",
+      "predictor_base"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/solar_radiation_test.py",
+    "dependencies": [
+      "absl",
+      "solar_radiation",
+      "typing",
+      "parameterized",
+      "xarray",
+      "graphcast",
+      "absltest",
+      "logging",
+      "Sequence",
+      "pandas",
+      "numpy",
+      "absl.testing",
+      "timeit"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/typed_graph_net.py",
+    "dependencies": [
+      "jax.tree_util",
+      "typing",
+      "Callable",
+      "jraph",
+      "typed_graph",
+      "graphcast",
+      "jax.numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/sparse_transformer.py",
+    "dependencies": [
+      "jax",
+      "sparse_transformer_utils",
+      "haiku",
+      "splash_attention",
+      "typing",
+      "jax.experimental.pallas.ops.tpu",
+      "mlp",
+      "scipy",
+      "dataclasses",
+      "graphcast",
+      "jax.numpy",
+      "logging",
+      "numpy",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/solar_radiation.py",
+    "dependencies": [
+      "chex",
+      "jax",
+      "Callable",
+      "functools",
+      "dataclasses",
+      "xarray",
+      "jax.numpy",
+      "numpy",
+      "pandas",
+      "collections.abc"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/graphcast.py",
+    "dependencies": [
+      "chex",
+      "losses",
+      "model_utils",
+      "typing",
+      "jraph",
+      "deep_typed_graph_net",
+      "typed_graph",
+      "xarray",
+      "xarray_jax",
+      "graphcast",
+      "jax.numpy",
+      "numpy",
+      "icosahedral_mesh",
+      "predictor_base",
+      "grid_mesh_connectivity",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "graphcast/grid_mesh_connectivity_test.py",
+    "dependencies": [
+      "graphcast",
+      "absl.testing",
+      "absltest",
+      "icosahedral_mesh",
+      "numpy",
+      "grid_mesh_connectivity"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/cloud_vm_setup.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
